@@ -1,0 +1,34 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<title>링크 스타일</title>
+<style type="text/css">
+<!--
+/* 기본으로 적용되는 링크 스타일 */
+A:link{color:black; text-decoration:underline}
+A:visited{color:yellow; text-decoration:none}
+A:active{color:red; text-decoration:none}
+A:hover{color:blue; text-decoration:underline}
+/* class를 사용할 때 적용되는 링크 스타일*/
+.su a:hover{color:red; text-decoration:none}
+td{border-style:double; background-color:white; text-align:center}
+-->
+</style>
+</head>
+<body>
+<table width="500" height="50" border="1" align="center">
+<tr>
+	<td><a href="#">처음으로</a></td>
+	<td><a href="#">교사마당</a></td>
+	<td><a href="#">학생마당</a></td>
+	<td><a href="#">학부모마당</a></td>
+</tr>
+<tr class="su">
+	<td><a href="#">언어영역</a></td>
+	<td><a href="#">수리영역</a></td>
+	<td><a href="#">외국어영역</a></td>
+	<td><a href="#">직탐영역</a></td>
+</tr>
+</table>
+</body>
+</html>
